@@ -1,0 +1,40 @@
+{
+  "name": "pi-deepseek-account",
+  "version": "0.1.0",
+  "description": "pi provider 扩展：登录 DeepSeek 账号（DSH PKCE 授权）直接用 DeepSeek 模型，并自动领取每日赠金额度",
+  "type": "module",
+  "license": "MIT",
+  "author": "tututuhehehe",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "deepseek",
+    "dsh",
+    "provider",
+    "oauth",
+    "anthropic-messages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tututuhehehe/pi-deepseek-account.git"
+  },
+  "homepage": "https://github.com/tututuhehehe/pi-deepseek-account#readme",
+  "bugs": {
+    "url": "https://github.com/tututuhehehe/pi-deepseek-account/issues"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "files": [
+    "*.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}

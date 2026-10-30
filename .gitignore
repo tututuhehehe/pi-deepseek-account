@@ -1,0 +1,6 @@
+node_modules/
+*.tgz
+.pi/
+auth.json
+deepseek-account.json
+.DS_Store
